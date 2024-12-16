@@ -3,8 +3,8 @@ import { Card, CardContent } from "../ui/Card";
 export function Services() {
   const services = [
     { title: 'Access Bars', description: 'Zihinsel berraklık için rahatlatıcı bir dokunuş.' },
-    { title: 'Healy Frekans Bio Rezonans', description: 'Frekanslarla sağlığınızı dengeleyin.' },
-    { title: 'Kişisel Olumlama Önerileri', description: 'Ruhunuza uygun olumlamalarla motivasyon kazanın.' },
+    { title: 'Healy Frekans', description: 'Frekanslarla sağlığınızı dengeleyin.' },
+    { title: 'Kişisel Olumlamalar', description: 'Ruhunuza uygun olumlamalarla motivasyon kazanın.' },
     { title: 'Online Koçluk', description: 'Hayatınızda yön bulmak için profesyonel rehberlik.' },
   ];
 

@@ -1,10 +1,8 @@
-import { Header } from './components/sections/Header';
 import { Services } from './components/sections/Services';
 import { Meditation } from './components/sections/Meditation';
 import { Numerology } from './components/sections/Numerology';
 import { Testimonials } from './components/sections/Testimonials';
 import { CTA } from './components/sections/CTA';
-import { Footer } from './components/sections/Footer';
 import HeroSection from './components/sections/HeroSection';
 
 export default function LandingPage() {
@@ -12,7 +10,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-gradient-to-r from-white to-purple-200 text-white">
       <main className="container mx-auto px-4">
         <HeroSection />
-        <section className="py-12">
+        <section className="py-20">
           <Services />
         </section>
         <section className="py-12">

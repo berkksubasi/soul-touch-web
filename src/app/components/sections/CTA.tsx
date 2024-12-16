@@ -1,11 +1,9 @@
-import { ChevronRight, Text } from 'lucide-react';
-import { Button } from '../ui/Buttons';
-import Image from 'next/image';
+import { Text } from 'lucide-react';
 import { SiAppstore, SiGoogleplay } from 'react-icons/si';
 
 export function CTA() {
   return (
-    <section className="py-12 text-center rounded-lg shadow-lg mt-12">
+    <section className="pb-12 text-center rounded-lg shadow-lg mt-12">
       <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-600 mb-6">
         Dönüşümünüz Burada Başlıyor
       </h2>

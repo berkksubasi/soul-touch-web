@@ -3,8 +3,8 @@ import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 export function Footer() {
   return (
-    <footer className="mt-12 bg-gradient-to-r from-purple-700 to-purple-900 py-10 text-white">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gradient-to-r from-purple-700 to-purple-900 py-10 text-white">
+      <div className="max-w-6xl mx-auto px-4">
         {/* Logo ve Slogan */}
         <div className="text-center mb-8">
           <h2 className="text-2xl font-extrabold tracking-wide">Soul Touch</h2>
